@@ -1,6 +1,10 @@
+"use client";
+
 import "./globals.css";
+import { CssVarsProvider } from "@mui/joy/styles";
 import { Inter } from "next/font/google";
 import AppBar from "@/components/AppBar/Index";
+import theme from "./theme";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,8 +21,10 @@ export default function RootLayout({
   return (
     <html lang="pl">
       <body className={inter.className}>
-        <AppBar />
-        {children}
+        <CssVarsProvider defaultMode="dark" theme={theme}>
+          <AppBar />
+          {children}
+        </CssVarsProvider>
       </body>
     </html>
   );
