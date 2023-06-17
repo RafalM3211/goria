@@ -1,9 +1,7 @@
 "use client";
 
-import styles from "./welcome.module.css";
 import Image from "next/image";
 import Grid from "@mui/joy/Grid";
-import Stack from "@mui/joy/Stack";
 import Sheet from "@mui/joy/Sheet";
 import Typography from "@mui/joy/Typography";
 
