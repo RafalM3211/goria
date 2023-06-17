@@ -10,7 +10,7 @@ export default function Welcome() {
     <Grid
       sx={{
         minHeight: "90vh",
-        backgroundColor: (theme) => theme.vars.palette.background.body,
+        backgroundColor: (theme) => theme.vars.palette.background.bodyDark,
       }}
       container
       spacing={0}
