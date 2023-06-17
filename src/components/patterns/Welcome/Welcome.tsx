@@ -9,7 +9,8 @@ export default function Welcome() {
   return (
     <Grid
       sx={{
-        minHeight: "90vh",
+        minHeight: "100vh",
+        pb: "10vh",
         backgroundColor: (theme) => theme.vars.palette.background.bodyDark,
       }}
       container
@@ -57,7 +58,7 @@ export default function Welcome() {
         xs={6}
       >
         <Image
-          src="/images/background1.jpg"
+          src="/images/welcome-background.jpg"
           width={470}
           height={670}
           alt="band"
