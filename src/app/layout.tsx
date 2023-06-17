@@ -3,7 +3,7 @@
 import "./globals.css";
 import { CssVarsProvider } from "@mui/joy/styles";
 import { Inter } from "next/font/google";
-import AppBar from "@/components/AppBar/Index";
+import AppBar from "@/components/patterns/AppBar/Index";
 import theme from "./theme";
 
 const inter = Inter({ subsets: ["latin"] });

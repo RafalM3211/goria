@@ -2,7 +2,7 @@
 
 import { Box } from "@mui/system";
 import { Sheet } from "@mui/joy";
-import NavLink from "../atoms/NavLink";
+import NavLink from "../../atoms/NavLink";
 import Image from "next/image";
 
 export default function AppBar() {
