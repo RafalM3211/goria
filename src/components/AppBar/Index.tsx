@@ -1,7 +1,7 @@
 "use client";
 
 import { Box } from "@mui/system";
-import { Sheet, Link, Button } from "@mui/joy";
+import { Sheet } from "@mui/joy";
 import NavLink from "../atoms/NavLink";
 import Image from "next/image";
 
@@ -15,6 +15,7 @@ export default function AppBar() {
         justifyContent: "space-between",
         alignItems: "center",
         color: theme.vars.palette.neutral["100"],
+        zIndex: theme.zIndex.table,
       })}
       component="header"
     >

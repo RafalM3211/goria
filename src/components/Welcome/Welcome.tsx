@@ -63,6 +63,7 @@ export default function Welcome() {
           alt="band"
           style={{
             filter: "brightness(60%)",
+            boxShadow: "-25px 5px 230px #09090d",
           }}
         />
       </Grid>
