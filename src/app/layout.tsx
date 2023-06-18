@@ -2,6 +2,7 @@
 
 import "./globals.css";
 import { CssVarsProvider } from "@mui/joy/styles";
+import { CssBaseline } from "@mui/joy";
 import { Inter } from "next/font/google";
 import AppBar from "@/components/patterns/AppBar/Index";
 import theme from "./theme";
@@ -21,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="pl">
       <body className={inter.className}>
+        <CssBaseline />
         <CssVarsProvider defaultMode="dark" theme={theme}>
           <AppBar />
           {children}

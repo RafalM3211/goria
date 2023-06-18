@@ -11,6 +11,7 @@ export default function About() {
         py: "120px",
         pb: "200px",
       }}
+      id="about"
     >
       <Box
         sx={{
