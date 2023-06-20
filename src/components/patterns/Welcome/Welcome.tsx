@@ -36,7 +36,12 @@ export default function Welcome() {
             zIndex: 4,
           }}
         >
-          <Image src="/images/logo.jpg" width={300} height={250} alt="goria" />
+          <Image
+            src="/images/square-logo.jpg"
+            width={300}
+            height={250}
+            alt="goria"
+          />
           <Typography
             sx={{
               display: "block",
@@ -45,8 +50,9 @@ export default function Welcome() {
             }}
           >
             {" "}
-            asjfhaskf jaslkfj jasdl fjsklg afsasf asf asf asf af ndlajksd
-            fgnlkdj fgnjkdlf gfd gjkd fbg jkdfgkjdfgjdkfg{" "}
+            Goria to formacja pięciu młodych muzyków, którzy połączyli swoje
+            siły w lutym i od tego czasu z pasją dzielą się z innymi swoim
+            zamiłowaniem do cięższych brzmień.{" "}
           </Typography>
         </Sheet>
       </Grid>
